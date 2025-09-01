@@ -13,4 +13,7 @@ public class MemberDto {
 	private String memberpw;
 	private String membername;
 	private String memberdate; // 가입일
+	
+	// private List<BoardDto> boardDtos;
+	// Member : Board -> 1 : N
 }
